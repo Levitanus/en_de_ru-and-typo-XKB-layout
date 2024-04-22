@@ -134,7 +134,7 @@ xkb_symbols "basic" {
         type[group1]= "ALPHABETIC",
         type[group2]= "ALPHABETIC",
         symbols[Group1] = [ q,  Q ],
-        symbols[Group2] = [ Cyrillic_shorti,    Cyrillic_SHORTI ]
+        symbols[Group2] = [ Cyrillic_yu,    Cyrillic_YU ]
     };
     key <AD02> { 
         type[group1]= "ALPHABETIC",
@@ -288,9 +288,9 @@ xkb_symbols "basic" {
     };
     key <AB01> { 
         type[group1]= "ALPHABETIC",
-        type[group2]= "FOUR)LEVEL_ALPHABETIC",
+        type[group2]= "ALPHABETIC",
         symbols[Group1] = [ z,  Z ],
-        symbols[Group2] = [ Cyrillic_ya,    Cyrillic_YA, Cyrilic_yu, Cyrilic_YU ]
+        symbols[Group2] = [ Cyrillic_ya,    Cyrillic_YA ]
     };
     key <AB02> { 
         type[group1]= "ALPHABETIC",
