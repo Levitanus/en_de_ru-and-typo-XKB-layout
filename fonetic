@@ -210,7 +210,7 @@ xkb_symbols "basic" {
     };
     key <AC01> { 
         type[group1]= "FOUR_LEVEL_ALPHABETIC",
-        type[group2]= "ALPHABETIC",
+        type[group2]= "FOUR_LEVEL_ALPHABETIC",
         symbols[Group1] = [ a,  A,  adiaeresis,  Adiaeresis ],
         symbols[Group2] = [ Cyrillic_a,    Cyrillic_A,    Cyrillic_e,    Cyrillic_E]
     };
