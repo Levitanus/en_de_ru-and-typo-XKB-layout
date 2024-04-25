@@ -218,7 +218,7 @@ xkb_symbols "basic" {
         type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
         type[group2]= "FOUR_LEVEL_SEMIALPHABETIC",
         symbols[Group1] = [ s,  S, U00DF, U00A7 ],
-        symbols[Group2] = [ Cyrillic_es,  Cyrillic_ES, U00DF, U00A7 ]
+        symbols[Group2] = [ Cyrillic_ya,  Cyrillic_YA, U00DF, U00A7 ]
     };
     key <AC03> { 
         type= "FOUR_LEVEL_SEMIALPHABETIC",
@@ -234,7 +234,7 @@ xkb_symbols "basic" {
         type[group1]= "ALPHABETIC",
         type[group2]= "ALPHABETIC",
         symbols[Group1] = [ g,  G ],
-        symbols[Group2] = [ Cyrillic_ge,    Cyrillic_GE ]
+        symbols[Group2] = [ Cyrillic_ghe,    Cyrillic_GHE ]
     };
     key <AC06> { 
         type[group1]= "ALPHABETIC",
@@ -302,7 +302,7 @@ xkb_symbols "basic" {
         type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
         type[group2]= "FOUR_LEVEL_SEMIALPHABETIC",
         symbols[Group1] = [ c,  C,  copyright,  cent ],
-        symbols[Group2] = [ Cyrillic_ya,    Cyrillic_YA,    copyright,  cent  ]
+        symbols[Group2] = [ Cyrillic_es,    Cyrillic_ES,    copyright,  cent  ]
     };
     key <AB04> { 
         type[group1]= "FOUR_LEVEL_SEMIALPHABETIC",
