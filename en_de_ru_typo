@@ -1,6 +1,6 @@
 xkb_symbols "basic" {
-	name[group1]="English (US)";
-	name[group2]="Russian";
+	name[group1]="MyLatin";
+	name[group2]="MyCyrilic";
 	key <ESC> { 
 		symbols = [ Escape ]
 	};
@@ -354,11 +354,11 @@ xkb_symbols "basic" {
 	key <LCTL> { 
 		symbols = [ Control_L ]
 	};
-	key <LALT> { 
+	key <LWIN> {
 		type= "ONE_LEVEL",
 		symbols = [ Super_L ]
 	};
-	key <LWIN> { 
+	key <LALT> {
 		symbols = [ Alt_L,	Meta_L ]
 	};
 	key <SPCE> { 
